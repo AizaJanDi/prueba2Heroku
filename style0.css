@@ -5,6 +5,8 @@ body{
 	margin: 0;
 	background-color: #f4f4f4;
 }
+
+
 .contenedor{
 	width: 80%;
 	margin: auto;
@@ -23,15 +25,7 @@ ul{
 	padding-right: 15%;
 	color: #fff;
 }
-.registro{
-	height: 33px;
-	width: 305px;
-	background-color: white;
-	border: 0;
-	padding-left: 1%;
-	padding-right: 1%;
-	color: black;
-}
+
 header{
 	background-color: #24282b;
 	color: #fff;
@@ -71,7 +65,7 @@ header a:hover{
 }
 #cabezera{
 	min-height: 200px;
-	background: url('text3.jpg') no-repeat 0 -400px;
+	background: url('imagenes/text3.jpg') no-repeat 0 -400px;
 	text-align: center;
 	color: #454545;
 }
@@ -83,24 +77,7 @@ header a:hover{
 #cabezera p{
 	font-size: 20px;
 }
-#boletin{
-	padding: 15px;
-	color: #fff;
-	background: #24282b;
-}
 
-#boletin h1{
-	float: left;
-}
-#boletin form{
-	float: right;
-	margin-top: 15px;
-}
-#boletin input[type="email"]{
-	padding: 4px;
-	height: 25px;
-	width: 250px;
-}
 #cajas{
   margin-top:20px;
 }
@@ -134,9 +111,4 @@ footer{
 
 textarea{
   height: 35px;
-}
-
-input[type='submit']{
-  background-color: #e8491d;
-  color: #fff;  
 }

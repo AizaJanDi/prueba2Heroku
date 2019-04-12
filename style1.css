@@ -1,0 +1,176 @@
+body{
+	/*background-image: url(imagenes/text3.jpg);*/
+	font: 15px Arial, Helvetica, sans-serif,'Curlz-MT';
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+
+
+}
+
+
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: #24282b;
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #00FFFF;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #marca{
+	float: left;
+}
+header #marca h1{
+	margin: 0;
+	font-size: 30px;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header .resaltado, header .actual a{
+	color: #fff;
+	font-weight: bold;
+}
+header a:hover{
+	color: #ccc;
+	font-weight: bold;
+}
+
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #00FFFF;
+	background-color: #00FFFF;
+	text-align: center;
+}
+textarea{
+  height: 35px;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.girar{
+	width: 1100px;
+	margin: 50px auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.tarjeta-girar{
+	margin: 10px;
+	-webkit-perspective: 800;
+	perspective: 800;
+}
+
+.tarjeta{
+	width: 300px;
+	height: 350px;
+	/*background: #FFC305;*/
+	background:radial-gradient(center center, circle, black, #1162ac);
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: .7s ease;
+	transition: .7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.adelante{
+	width: 100%;
+}
+
+.atras{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	padding: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+	text-align: center;
+	color: #FFFFFF;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+}
+
+.tarjeta-girar:hover .tarjeta{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.tarj1{
+	background-image: url(imagenes/img1.jpg);
+	background-size: cover;
+}
+
+.tarj2{
+	background-image: url(imagenes/img3.jpg);
+	background-size: cover;
+}
+
+.tarj3{
+	background-image: url(imagenes/img4.jpg);
+	background-size: cover;
+}
+
+.tarj4{
+	background-image: url(imagenes/img5.jpg);
+	background-size: cover;
+}
